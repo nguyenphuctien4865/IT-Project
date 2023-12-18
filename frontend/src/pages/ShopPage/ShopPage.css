@@ -1,0 +1,150 @@
+.shop-header {
+  position: relative;
+}
+.shop-header .image-container {
+  flex: 1;
+  height: 100%;
+}
+.shop-header .image {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+.shop-header .info-container {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  color: #fff;
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+}
+.shop-header .title {
+  font-size: 40px;
+  text-align: center;
+}
+.shop-header .desc {
+  font-size: 20px;
+  margin: 20px 120px;
+  text-shadow: 1px 1px #000;
+  text-align: center;
+}
+
+.shop-body {
+  padding: 40px;
+}
+.shop-result {
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shop-sort {
+  width: fit-content;
+  height: fit-content;
+}
+.shop-pagination {
+  margin-left: 50%;
+  transform: translateX(-17%);
+}
+
+/* Checkbox color */
+/* Customize the label (the container) */
+.color-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  /* font-size: 22px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.color-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.color-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.color-container input:checked ~ .checkmark.blue {
+  background-color: #2196f3;
+}
+.color-container input:checked ~ .checkmark.red {
+  background-color: #c64747;
+}
+.color-container input:checked ~ .checkmark.white {
+  background-color: #fff;
+}
+.color-container input:checked ~ .checkmark.black {
+  background-color: #282626;
+}
+.color-container input:checked ~ .checkmark.yellow {
+  background-color: #e2df08;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.color-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.color-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.color-container .checkmark.white:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.shop-by-size div {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 4px;
+}
+.shop-by-size .size-container span {
+  margin-left: 16px;
+}

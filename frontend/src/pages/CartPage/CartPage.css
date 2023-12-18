@@ -1,0 +1,24 @@
+.cart-container {
+}
+.cart-container .cart-title {
+  padding: 20px 40px;
+}
+.cart-container .cart-content {
+  min-height: 750px;
+  padding: 0 40px;
+}
+.cart-container .product-img {
+  width: 100px;
+}
+.cart-container .product-name {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.cart-container .product-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: default;
+  margin-left: 8px;
+}

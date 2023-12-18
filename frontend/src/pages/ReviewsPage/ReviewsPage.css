@@ -1,0 +1,27 @@
+.reviews-container {
+}
+.reviews-body {
+  padding: 40px;
+}
+.reviews-container .product-review-content {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.reviews-container .product-review-text {
+  width: 100%;
+}
+.reviews-container .product-review-content img {
+  margin-right: 24px;
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+.reviews-container .product-review-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.reviews-container .product-review-detail {
+  color: #757575;
+  font-size: 16px;
+}

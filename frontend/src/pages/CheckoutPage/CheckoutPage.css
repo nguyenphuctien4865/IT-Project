@@ -1,0 +1,13 @@
+.checkout-container {
+  width: 100%;
+}
+.checkout-details {
+  padding: 40px 80px;
+}
+.checkout-note {
+  height: 200px;
+  width: 100%;
+}
+.checkout-summary {
+  margin-top: 40px;
+}

@@ -1,0 +1,44 @@
+.categories-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.categories-container .item {
+  flex: 1;
+  height: 70vh;
+  position: relative;
+}
+.categories-container .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.categories-container .img {
+  height: 100%;
+  width: 98%;
+  object-fit: cover;
+}
+.categories-container .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.categories-container .buy-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+.categories-container .buy-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

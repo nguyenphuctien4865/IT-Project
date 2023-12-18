@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  padding: 15px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .header-info {
+  display: flex;
+}
+
+.header .header-info div {
+  margin: 0 20px;
+}
+
+.header .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-search {
+  margin-right: 8px;
+}
+.header .listItem {
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header .list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 24px;
+}
+
+.header .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header .cart-container {
+  position: relative;
+}
+.header .badge-notification {
+  top: -6px;
+  position: absolute;
+  font-size: 8px;
+  left: 75%;
+}
+
+.header .header-user a {
+  color: #000 !important;
+}
