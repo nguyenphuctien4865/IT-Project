@@ -4,5 +4,6 @@
 
 ### Sinh viên thực hiện:
 
-Nguyễn Minh Đức - 20110461
-Nguyễn Văn An - 20110434
+Nguyễn Phúc Tiền   -   20110573
+Trần Trọng Khang  -   21110834
+Đặng Minh Thiện     -   21110855
