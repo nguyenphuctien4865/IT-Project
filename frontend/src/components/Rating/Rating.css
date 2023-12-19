@@ -1,0 +1,7 @@
+.rating {
+  display: flex;
+  justify-content: flex-start;
+}
+.rating span {
+  color: #ffc000;
+}
